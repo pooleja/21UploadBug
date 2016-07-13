@@ -2,7 +2,7 @@
 Demonstrates a bug with uploading files on 21 network
 
 ## To reproduce
-On serve A run:
+On Server A run:
 ```
 $ python3 server.py
 ```
@@ -14,7 +14,7 @@ $ python3 client.py
 
 You will notice the upload is successful.
 
-On server B run:
+On Server B run:
 ```
 $ python3 client.py --target=SERVER_A_IP
 ```
