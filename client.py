@@ -5,7 +5,6 @@ import time
 import os
 import random
 import string
-from speedE16 import SpeedE16
 
 from two1.commands.util import config
 from two1.wallet import Wallet

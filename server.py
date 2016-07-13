@@ -24,7 +24,6 @@ from two1.bitrequests import BitTransferRequests
 from two1.bitrequests import BitRequestsError
 requests = BitTransferRequests(Wallet(), config.Config().username)
 
-from speedE16 import SpeedE16
 
 app = Flask(__name__)
 
